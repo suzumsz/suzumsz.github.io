@@ -1,3 +1,4 @@
+@import url("https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.css");
 @-moz-keyframes spinAround {
   from {
     transform: rotate(0deg);
@@ -412,7 +413,7 @@ button,
 input,
 select,
 textarea {
-  font-family: Ubuntu, Roboto, 'Open Sans', 'Microsoft YaHei', sans-serif;
+  font-family: Ubuntu, 'NanumSquareRound', "Helvetica Neue", Roboto, 'Open Sans', 'Microsoft YaHei', sans-serif;
 }
 code,
 pre {
@@ -1064,13 +1065,13 @@ a.has-text-grey-lightest:focus {
   font-weight: 700 !important;
 }
 .is-family-primary {
-  font-family: Ubuntu, Roboto, 'Open Sans', 'Microsoft YaHei', sans-serif !important;
+  font-family: Ubuntu, 'NanumSquareRound', "Helvetica Neue", Roboto, 'Open Sans', 'Microsoft YaHei', sans-serif !important;
 }
 .is-family-secondary {
-  font-family: Ubuntu, Roboto, 'Open Sans', 'Microsoft YaHei', sans-serif !important;
+  font-family: Ubuntu, 'NanumSquareRound', "Helvetica Neue", Roboto, 'Open Sans', 'Microsoft YaHei', sans-serif !important;
 }
 .is-family-sans-serif {
-  font-family: Ubuntu, Roboto, 'Open Sans', 'Microsoft YaHei', sans-serif !important;
+  font-family: Ubuntu, 'NanumSquareRound', "Helvetica Neue", Roboto, 'Open Sans', 'Microsoft YaHei', sans-serif !important;
 }
 .is-family-monospace {
   font-family: monospace !important;
@@ -10803,6 +10804,11 @@ article.media .media-content .title {
   margin: 0;
   line-height: inherit;
 }
+article.article .title {
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: -1.4px;
+}
 article.article .article-meta,
 article.article .article-tags {
   color: #7a7a7a;
@@ -10812,14 +10818,22 @@ article.article .article-meta {
   margin-bottom: 0.5rem;
 }
 article.article .content {
+  font-size: 1.1rem;
+  line-height: 1.9em;
+  letter-spacing: -0.3px;
+  color: #5d686f;
+  margin-top: 20px;
   word-wrap: break-word;
   font-size: 1.1rem;
 }
 article.article .content h1 {
-  font-size: 1.75em;
+  font-size: 1.95em;
+  font-weight: 600;
+  margin-top: 50px;
 }
 article.article .content h2 {
   font-size: 1.5em;
+  margin-top: 35px;
 }
 article.article .content h3 {
   font-size: 1.25em;
@@ -11585,7 +11599,7 @@ figure.highlight .section {
 .cc-window,
 .cc-revoke {
   font-size: 1.1rem !important;
-  font-family: Ubuntu, Roboto, 'Open Sans', 'Microsoft YaHei', sans-serif !important;
+  font-family: Ubuntu, 'NanumSquareRound', "Helvetica Neue", Roboto, 'Open Sans', 'Microsoft YaHei', sans-serif !important;
 }
 .cc-window {
   color: #4a4a4a !important;
@@ -11662,3 +11676,4 @@ figure.highlight .section {
     padding: 1.5rem 1rem;
   }
 }
+@import url("https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.css");
